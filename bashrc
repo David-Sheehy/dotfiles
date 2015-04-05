@@ -81,7 +81,9 @@ if ! shopt -q login_shell ; then # We're not a login shell
     unset i
     unset -f pathmunge
 fi
-# vim:ts=4:sw=4
+
+unset SSH_ASKPASS
+
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
