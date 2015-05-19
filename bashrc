@@ -62,3 +62,6 @@ PS1='[\u@\h \W]\$ '
 
 # Add ~/bin to the PATH
 PATH="$HOME/bin:$PATH"
+# Add the ruby gem bin into the path
+PATH="/root/.gem/ruby/2.2.0/bin:$PATH"
+
