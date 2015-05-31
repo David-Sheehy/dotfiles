@@ -20,6 +20,7 @@ export HISTFILESIZE=${HISTSIZE}
 export HISTCONTROL=ignoreboth
 export JAVA_FONTS=/usr/share/fonts/TTF
 export EDITOR=/usr/bin/vim
+export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/site-packages
 
 alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias ll='ls -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
@@ -32,6 +33,8 @@ alias np='nano PKGBUILD'
 alias fixit='sudo rm -f /var/lib/pacman/db.lck && sudo pacman-mirrors -g && sudo pacman -Syyuu  && 
 sudo pacman -Suu'
 alias vi='vim'				  # Use vim instead of vi.
+alias todo="todo-manager -f ~/todo.txt"
+alias reading="todo-manager -f ~/reading.txt"
 
 # ex - archive extractor
 # usage: ex <file>
@@ -58,7 +61,7 @@ ex ()
 }
 
 # prompt
-PS1='[\u@\h \W]\$ '
+PS1='[\u \W]\$ '
 
 # Add ~/bin to the PATH
 PATH="$HOME/bin:$PATH"
