@@ -67,4 +67,6 @@ PS1='[\u \W]\$ '
 PATH="$HOME/bin:$PATH"
 # Add the ruby gem bin into the path
 PATH="/root/.gem/ruby/2.2.0/bin:$PATH"
+# Add heroku to the path
+PATH="/usr/local/heroku/bin:$PATH"
 
