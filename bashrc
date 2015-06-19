@@ -69,4 +69,7 @@ PATH="$HOME/bin:$PATH"
 PATH="/root/.gem/ruby/2.2.0/bin:$PATH"
 # Add heroku to the path
 PATH="/usr/local/heroku/bin:$PATH"
+# Add android development tools to the patnh
+PATH="$HOME/bin/android-sdk-linux/platform-tools/:$PATH"
+PATH="$HOME/bin/android-sdk-linux/tools/:$PATH"
 
