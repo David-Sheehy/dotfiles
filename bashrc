@@ -21,6 +21,8 @@ export HISTCONTROL=ignoreboth
 export JAVA_FONTS=/usr/share/fonts/TTF
 export EDITOR=/usr/bin/vim
 export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/site-packages
+export GRADLE_HOME=$HOME/bin/gradle-2.3-bin/gradle-2.3
+
 
 alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias ll='ls -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
@@ -72,4 +74,5 @@ PATH="/usr/local/heroku/bin:$PATH"
 # Add android development tools to the patnh
 PATH="$HOME/bin/android-sdk-linux/platform-tools/:$PATH"
 PATH="$HOME/bin/android-sdk-linux/tools/:$PATH"
+PATH="$GRADLE_HOME/bin:$PATH"
 
